@@ -1,0 +1,712 @@
+Practical 1
+
+A) Aim: Create a simple sequence-based project.
+Step 1: Open uipath studio select process give name click on create, open main workflow.
+Step 2: Drag and drop message box inside main sequence, in text property write â€œHello Everyoneâ€.
+Step 3: Drag and drop another message box inside main sequence, in text property write â€œGood Morningâ€.
+Step 4: Click on debug file to execute.
+
+B) Aim: Create a flowchart-based project.
+Step 1: Open uipath studio select process give name click on create, click on open main workflow.
+Step 2: Drag and drop flowchart in main sequence, double click on flowchart.
+Step 3: Drag and drop input dialogue and connect to start node, drag and drop Flow Decision , drag and drop two message box and connect it to Flow Decision activity.
+Step 4: Double click on input dialogue, in Dialog Title write â€œEnter your ageâ€, in Input Label write â€œEnter your ageâ€, in value entered type variable name age, in variable panel create age variable of type int.
+Step 5: Go to flowchart double click on message box type â€œyou are eligible to voteâ€.
+Step 6: Go to flowchart double click on second message box type â€œyou are not eligible to voteâ€.
+Step 7: Go to flowchart and double click decision flow, in condition property write age>=18.
+Step 8: Click on debug file to execute, input dialog will pop up enter age there click on ok, then message box will pop up.
+
+C) Aim: Create an UiPath Robot which can empty a folder in Gmail solely on basis of recording.
+Step 1: Double click on chrome.
+Step 2: Type address in search bar
+Step 4: Click on use another account.
+Step 5: type your email in email or phone field.
+
+
+
+
+
+
+
+
+-------------------------------------------------------------------------------
+Practical 2
+
+A) Aim: Automate UiPath Number Calculation (Addition, Subtraction, Multiplication, Division of numbers).
+Step 1: Open uipath studio select process give name and click on create.
+Step 2: Drag and drop input dialogue in main sequence from activities panel, Enter values as shown below.
+Step 3: Drag and drop another input dialogue in main sequence from activities panel, Enter values as shown below.
+Step 4: Drag and drop four message boxes for addition, subtraction, multiplication and division, and enter values in text property of each message box as shown below.
+Step 5: Create variable num1 and num2 of type int in variable panel.
+Step 6: Click on debug file for execution, input dialog will appear asking for numbers, then message boxes will pop with addition, subtraction, multiplication and division.
+
+B) 
+I. Print elements of int array.
+Step 1: Open uipath studio select process give name and click on create, and open main workflow.
+Step 2: Drag and drop assign activity in main sequence from activities panel, in properties enter values as shown below, and create variable arr of type int array in variable panel. 
+Step 3: Drag and drop for each activity after assign activity in main sequence, write values in properties as shown below, and drag and drop write line activity in body section of for each activity.
+Step 4: Click on debug file for execution.
+
+II. Check how many vowels are present in string.
+Step 1: Open uipath studio select process give name and click on create, and open main workflow.
+Step 2: Drag and drop assign activity inside main workflow from activities panel, provide values to properties as shown below, and create str variable of type string in variable panel.
+Step 3: Drag and drop for each activity in main sequence from activities panel, provide values to all the properties as shown below.
+Step 4: Drag and drop if activity in body section of for each activity, provide values to all the properties as shown below.
+Step 5: In then part of if activity drag and drop assign activity, provide values to all the properties as shown below, and create variable count of type int in variable panel.
+Step 6: Drag and drop message box outside the body of for each activity, write count in text property.
+Step 7: Click on debug file for execution.
+
+Practical 3
+
+A) Aim: Create an automation UiPath Project using decision statements.
+I. Assign activity
+Step 1: Open uipath studio select process give name, click on create, open main workflow.
+Step 2:  Drag and drop assign activity inside main sequence from activities panel, provide values to the properties as shown below, in variable panel create variable str of type string.
+Step 3: Drag and drop message box after assign activity, write str in text property.
+Step 4: Click on Debug file for execution.â€ƒ
+
+II. Delay activity
+Step 1: Open uipath studio select process give name, click on create, open main workflow.
+Step 2: Drag and drop write line activity inside main sequence from activities panel, in text property type â€œhello thereâ€.
+Step 3: Drag and drop delay activity after assign activity, give delay of 00h 00m 05s.
+Step 4: Drag and drop another write line activity, in text property write â€œHow are youâ€.
+Step 5: Click on Debug file for execution, and open output panel.
+
+III. Break activity
+Step 1: Open uipath studio select process give name, click on create, open main workflow.
+Step 2: Drag and drop assign activity in main sequence from activities panel, provide values to the properties as shown below, in variable panel create variable arr of type int array.
+Step 3: Drag and drop for each activity inside main sequence from activities panel, provide values to the properties as shown below.
+Step 4: Drag and drop if activity inside body section of for each activity, in then section of if activity drag and drop break activity, provide values to properties as shown below.
+Step 5: Drag and drop write line activity inside else section of if activity, in text property write currenItem.toSting.
+Step 6: Click on debug file for execution and open output panel.
+
+IV. If activity
+Step 1: Open uipath studio select process give name, click on create, open main workflow.
+Step 2: Drag and drop input dialog activity inside main sequence from activities panel, provide values to all the properties as shown below, in variable panel create variable num of type int.
+Step 3: Drag and drop if activity inside main sequence, write condition, in then part drag and drop message box in text property write â€œnumber is evenâ€, and in else part of if activity drag and drop another message box in text property type â€œnumber is oddâ€.
+Step 4: Click on debug file for execution, input dialog will pop up asking for number enter number there, click on ok now message box will pop up.
+â€ƒ
+V. Switch activity
+Step 1: Open uipath studio select process give name, click on create, open main workflow.
+Step 2: Drag and drop input dialog inside main workflow from activities panel, provide values to properties as shown below, in variable panel create variable choice of type int.
+Step 3: Drag and drop switch activity inside main workflow from activities panel, create case 1, drag and drop input dialog in it, provide values to properties as shown below.
+
+B) Aim: Create an automation UiPath Project using looping statements.
+
+I. For each loop
+Step 1: Open uipath studio select process give name, click on create, open main workflow.
+Step 2: Drag and drop assign activity inside main sequence from activities panel, provide values to properties as shown below, create variable arr of type int array.
+Step 3: Drag and drop for each activity in main sequence from activities panel, Drag and drop if activity inside body of for each activity, in then part of if activity drag and drop write line activity, provide values to properties as shown below.
+Step 4: Click on debug file for execution and open output panel.
+
+II. While activity 
+Step 1: Open uipath studio select process give name, click on create, open main workflow.
+Step 2: Drag and drop input dialog inside main workflow from activities panel, provide values to properties as shown below, in variable panel create variable number of type int.
+Step 3: Drag and drop assign activity inside main workflow assign 1 to variable i, drag and drop while activity inside the body of while activity drag and drop assign activity assign number*i to variable table, drag and drop write line activity in text property write table.ToString.
+Step 4: Drag and drop assign activity inside body of while loop assign i+1 to variable i, in variable panel create variable table and i of type int. 
+Step 5: Click on debug file for execution, a dialog will appear enter a number, then open output panel where you can see the table of that number.
+
+III. Do while
+
+Step 1: Open uipath studio select process give name, click on create, open main workflow.
+Step 2: Drag and drop input dialog inside main workflow from activities panel, provide values to properties as shown below, create variable number of type int in variable panel.
+Step 3: Drag and drop assign activity inside main workflow assign 1 to variable i, in variable panel create variable i of type int.
+Step 4: Drag and drop do while activity inside main workflow, in condition property type number>0.
+Step 5: Drag and drop if activity inside the body of  do while activity, in condition property write number mod 2=1, in then part of if activity drag and drop write line activity in text property write number.ToString
+Step 6: Click on debug file for execution, input dialog will pop enter number in it, then open output panel to see the output.
+ 
+ 
+Practical 4
+
+A) Aim: Automate any process using basic recording.
+Step 1: Open uipath studio select process give name and click on create, and open main workflow.
+Step 2: Open notepad
+Step 3: Click on App/Web Recorder.
+Step 4: Click on record button.
+Step 5: Type something in notepad.
+Step 6: Click on debug file for execution.
+ 
+
+B) Aim: Automate any process using desktop recording
+Step 1: Open uipath studio select process give name and click on create, and open main workflow. 
+Step 2: Open notepad
+Step 3: Click on App/Web Recorder.
+Step 4: Type something into notepad.
+Step 5: Click on file then click on save.
+Step 6: Give appropriate name, then click on save.
+Step 7: Click on debug file for execution.
+ 
+â€ƒ
+C) Aim: Automate any process using web recording.
+Step 1: Open uipath studio select process give name and click on create, and open main workflow.
+Step 2: Click on App/Web Recorder.
+Step 3: Click on chrome.
+Step 4: Browser will open click on gmail.
+Step 5: Click on use another account.
+Step 6: Type into email or phone field, then click next.
+Step 7: Type into enter your password field, then click next.
+Step 8: Gmail will open, click on compose.
+Step 9: Click on message field type into it, then click on subject field type into it. 
+Step 10: Click on recipient field, enter repicient mail address, then click on send.
+Step 11: Click on debug file click on run.
+
+Practical 5
+
+A) Aim: Consider an array of names. We have to find out how many of them start with the  letter  â€œaâ€. Create an automation where the number of names starting with â€œaâ€ is counted and the result is displayed.
+Step 1: Open uipath studio.
+Step 2: Select a process and give a name practical 5a-vaishnavi. 
+Step 3: In activity panel search for assign activity drag and drop it inside main sequence, in set value property type {â€œarhanâ€, â€œarfanâ€, â€œasrarâ€, â€œnavedâ€, â€œraheelâ€}, in To variable property type variable name str.
+Step 4: Create array variable of type string in variable panel.
+Step 5: drag and drop for each activity inside main sequence from activity panel, in list of items property type variable name str.
+Step 6: in variable panel create array variable of type string with name str.
+Step 7: drag and drop if activity from activities panel inside the body of for each activity, in condition property type currentItem.startsWtith(â€œaâ€) Or currentItem.startsWith(â€œAâ€)
+
+Step 8: in variable panel create variable count of type int and initialize it with 0.
+ 
+
+Step 10: in then part of if drag and drop assign activity from activity panel, in to variable property type count and in set value property type count+1.
+ 
+
+
+
+
+
+Step 11: drag and drop message box outside the body of for each activity, in text property type variable name count.
+ 
+Step 12: click on debug file select run.
+ 
+
+
+
+
+
+
+
+Step 13: message box will pop up with count of names starting with â€œaâ€ or  â€œAâ€ in array.
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Practical 6
+
+A) Aim: Create an application automating the read write and append operation on excel file.
+I. Read Cell
+II. Write Cell
+III. Read Range
+IV. Write Range
+
+I. Read Cell
+Step 1: Open uipath studio.
+ 
+
+
+
+
+
+
+Step 2: Select a process and give a name practical 6ai-vaishnavi
+ 
+
+Step 3: Open main workflow.
+ 
+
+Step 4: Open excel file on which you want to operate.
+ 
+
+Step 5: Drag and drop excel application scope from activities panel inside main sequence, in path property provide path of excel file on which you want to operate.
+ 
+
+Step 6: In do section of excel application scope drag and drop read cell activity from activities panel, in cell property write the cell number which you want to read, in result property write variable name cellReadedString(it will store the output of read cell activity).
+ 
+
+Step 7: In variable panel create variable cellReadedSting of type string.
+ 
+Step 8: Drag and drop message box after read cell activity from activities panel, in text property write variable name cellReadedString.
+ 
+
+Step 9: Click on debug file message box will appear with value present at cell â€œA1â€.
+ 
+
+II. Write Cell
+Step 1: Open uipath Select a process and give a name practical 6aiii-vaishnavi click on create.
+ 
+
+Step 2: Open main workflow.
+ 
+Step 3: Open excel file on which you want to operate
+ 
+
+Step 4: Drag and drop excel application scope inside main sequence from activities panel.
+ 
+
+Step 5: Drag and drop write line activity inside do section of excel application scope from activities panel, in value property write â€œmujahidâ€.
+ 
+
+Step 6: Click on debug file and run
+ 
+
+Step 10: data is inserted in excel file.
+ â€ƒ
+III. Read Range
+Step 1: Open uipath studio.
+ 
+
+Step 2: Select a process and give a name practical 6aii-vaishnavi .
+ 
+Step 3: Open main workflow.
+ 
+
+Step 4: Open excel file on which you want to operate.
+ 
+
+Step 5: Drag and drop excel application scope inside main sequence from activities panel, in workbook path property provide path of excel file on which you want to operate.
+ 
+
+Step 7: From activities panel drag and drop read range activity inside do section of excel application scope, in range property of read range activity type â€œA1:A3â€, in data table property write variable name readedRange.
+ 
+Step 8: In variable panel create variable readedRange of type data table.
+ 
+
+Step 9: Drag and drop output data table activity after read range activity, in data table property write variable name readedRange, in text property write variable name readedRangeString.
+ 
+
+Step 10: In variable panel create variable readedRangeString of type string.
+ 
+
+Step 11: Drag and drop message box from activities panel after output data table activity from activities panel, in text property write variable name readedRangeString.
+ 
+
+Step 12: Click on debug file message box will pop up with values that read range activity readed from excel file.
+ 
+
+
+â€ƒ
+IV. Write Range
+
+Step 1: Open uipath Select a process and give a name practical 6aiv-vaishnavi click on create.
+ 
+
+Step 2: Open main workflow.
+ 
+
+Step 3: Open excel file on which you want to operate.
+ 
+
+Step 4: Drag and drop excel application scope inside main sequence from activities panel, give path in workbook path property.
+ 
+
+Step 5: Drag and drop build data table activity inside do section of excel application scope, click on DataTable, delete auto generated columns create name and number column and insert data into it, write variable name myDt in output property.
+ 
+
+Step 6: In variable panel create variable myDt of type data table.
+ 
+
+Step 7: Drag and drop write range activity inside do section of excel application scope, in startingCell property write â€œA6â€ in DataTable property write variable name myDt.
+ 
+
+Step 8: click on debug file, data will get inserted in excel file.
+ 
+Step 9: Open excel file.
+ 
+â€ƒ
+B) Aim: Automate the process to extract data from an excel file into a data table and vice versa. Building a data table.
+
+I. Automate the process to extract data from an excel file into a data table.
+Step 1: Open uipath Select a process and give a name practical 6bi-vaishnavi click on create, and open main workflow.
+ 
+
+Step 2: Open excel file on which you want to operate.
+ 
+Step 3: Drag and drop excel application scope inside main sequence from activities panel, give path in workbook path property.
+ 
+
+Step 4: Drag and drop read range activity inside do section of excel application scope from activities panel,in range property give range â€œA1:A3â€, in DataTable property write readedRange.
+ 
+Step 5: In variable panel create variable readedRange of type data table.
+ 
+
+Step 6: Drag and drop output data table activity, in DataTable property write readedRange, in Text property write variable name readedRangeString.
+ 
+
+Step 7: In variable panel create variable readedRangeString of type string.
+ 
+
+Step 8: Drag and drop message box in text property write variable name readedRangeString.
+ 
+
+Step 9: Click on debug file to execute.
+ 
+
+
+
+
+
+â€ƒ
+II. Automate the process to extract data from a data table into an excel file.
+
+Step 1: Open uipath Select a process and give a name practical 6bii-vaishnavi click on create, and open main workflow.
+ 
+Step 2: Drag and drop build data table activity inside main sequence, click on DataTable delete auto generated columns, create columns and add some data in it, in DataTable property write myDt.
+ 
+Step 3: In variable panel create variable myDt of type data table.
+ 
+
+Step 4: Drag and drop excel application scope activity provide path of excel file, in do section drag and drop write range activity, in StartingCell write â€œAâ€, in input property of write range activity type myDt.
+ 
+Step 5: Click on debug file to execute open excel file to see output.
+
+ 
+ 
+Practical 7
+
+A) Aim: Implement the attach window activity.
+Step 1: Open uipath studio select process give name, click on create and open main workflow.
+ 
+Step 2: Drag and drop attach window activity inside main workflow,click on indicate window on screen and click on notepad, in do section of it drag and drop type into activity and click on indicate element inside window.
+ 
+Step 3: Drag and drop type into activity inside do section of attach window activity, type â€œhello everyone in text property.
+Step 4: drag and drop click activity, click on indicate element inside window, click on file element of notepad.
+Step 5: Click on debug file.
+ 
+B-Find Different Controls using UiPath
+â€¢	STEPS:
+1.	Create a Blank Project.
+2.	Different Controls are:
+I.	Anchor Base 
+II.	Element Exists 
+III.	Element Scope
+IV.	Find Children
+V.	Find Element
+VI.	Find Relative Children
+VII.	Get Ancestor
+VIII.	Indicate On Screen
+
+I.	Finding the Control Anchor Base
+-	Goto : http://www.rpachallenge.com/
+-	Anchor base activity to get label unique and to avoid the duplicates.
+-	Find Element to get the label â€œCompany Nameâ€
+-	Type into to get the text â€œCompany New Name
+
+ 
+b.	Element Exists
+-	Use Open Browser activity and url: https://www.google.com/
+-	
+
+-	Use Element Exist activity and then use if condition.
+
+-	If the condition is met then type into and then click on google search.
+ 
+ 
+
+ 
+-	Display the output.
+Output:-
+
+
+
+-	You can use a bunch of actions within a single UI element.
+
+c.	Find Children
+-	Open Browser with website url: https://www.spicejet.com/.
+-	Use Element Exist to wait for the website to load.
+ 
+-	If condition with Element Exist variable as condition.
+-	If conditions are met then Find children's activity or Else continue.
+ 
+-	Find children activity and get the dropdown list of the departure list of Cities in variable.
+ 
+
+ 
+-	Use For Each loop to traverse through this variable.
+-	Use Get Attribute activity to get the text with target element as iterator for each loop and Attribute as â€œaanameâ€.
+ 
+-	Print the value.
+ 
+
+ 
+
+Output:-
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+d.	Find Element
+-	Open Browser activity and open url: https://www.google.com/.
+-	Use Find Element activity and find an element.
+ 
+-	Print message box as â€œElement Foundâ€.
+ 
+
+
+OUTPUT:
+
+e.	Find Relative Children
+-	Use Application/Browser activity and use open NotePad prior to this process.
+ 
+-	Create two UiElement variables. (editElement and formatElement).
+ 
+
+
+
+
+
+-	Use Type into activity and type some text in Notepad.
+
+
+
+
+ 
+-	Use Find element activity and find â€œEditâ€ from the menu and output as editElement.
+ 
+ 
+-	Use Find Relative activity below the Find element activity and use editElement as input from Find Element and output as formatElement.
+ 
+-	Use Click Activity and use input element as formatElement which clicks the Format from Notepad open dropdown list.
+ 
+-	Click on the â€œfontâ€ option and wait for the Font menu to open.
+ 
+
+ 
+-	Use Activate activity to know if the Font menu is active or not.
+-	Use Send Hotkey activity and change font size.
+ 
+-	Click activity to click on â€œOKâ€.
+
+
+OUTPUT:
+ 
+
+ 
+
+f.	Get Ancestor
+-	This control is used to retrieve the ancestor of the specified UIelement.
+-	You have to supply a variable to receive the ancestor element as output. You can specify the variable name in the Ancestor property of the Get ancestor control.
+-	After receiving The Ancestor Element,you can retrieve its attributes, properties and so one for further analysis.
+
+
+g.	Indicate on screen
+-	Use Indicate On Screen activity and output variable as indicateElement.
+ 
+
+
+
+
+
+
+
+
+c. Demonstrate the following activities in UiPath.
+
+â€¢	STEPS:
+1.	Open a blank new project.
+2.	We have following activities related to:
+ i.) Mouse.
+ii.) Type Into.
+iii.) Type Secure Text.
+ 
+
+i.) Mouse
+a.	Click
+-	Use Click activity to click any button or open a file.
+-	Click on the google browser search button.
+
+b.	Double Click
+-	Use Double-click activity to simulate double click.
+-	Double click a button which needs double click to confirm one need to hit a specific button.
+ 
+c.	Hover
+-	Use hover activity hover over some menu or icons.
+-	Hover over button to change color.
+ 
+
+ 
+
+ii.) Type Into
+-	Type into activity and drag drop it.
+-	Type some text which should be quotes with â€œâ€;
+iii.) Type Secure Text
+-	This is used to type secure text such as password.
+-	Search type secure text and drop into sequence.
+-	Create SecureString variable
+ 
+
+  
+
+
+Practical 8
+
+
+a. Demonstrate the following events in UiPath.
+
+STEPS:
+1.	Open blank new project.
+2.	Drag and drop trigger scope, as all triggers work in trigger scope only.
+3.	Different types of trigger are:-
+-	Element triggering events.
+-	Image triggering events.
+-	System triggering events.
+
+-	Element triggering events:-
+a.	Element State Change trigger.
+-	Print it.
+
+b.	Click Trigger.
+-	Print it.
+ 
+
+ 
+c.	Element Attribute Change Trigger.
+-	Print it.
+d.	Key Press Trigger.
+-	Print it.
+ 
+
+ 
+
+-	Image triggering events:-
+a. Click Image Trigger
+-	Print it.
+
+ 
+
+-	System triggering events:-
+a.	HotKey Trigger.
+-	Print it.
+
+ 
+
+b.	Mouse Trigger:-
+-	Print it.
+
+
+c.	System Trigger:-
+-	Print it.
+ 
+
+
+ 
+
+
+
+b. Automate the following screen scraping methods using UiPath i.) Full Text ii.) Native iii.) OCR
+
+STEPS:
+1.	One blank new project.
+2.	If Modern version if on then disable in setting.
+3.	Open Notepad and enter some text in it.
+4.	Screen Scraping then scrap the data from NotePad, there are different types of types:-
+5.	Use Screen Scraping and it types:-
+-	Full Text
+ 
+
+
+ 
+-	Native
+
+
+ 
+
+
+-	OCR
+
+
+ 
+
+
+
+6.	Output for all the types:
+
+OUTPUT
+-	Full Text
+-	Native
+ 
+-	OCR
+
+ 
+
+
+c.Install and automate any process using UiPath with the following plug-ins:
+i.) Java Plugin
+
+ii.) Mail Plugin 
+iii.) PDF Plugin
+iv) Web Integration
+v.) Excel Plugin 
+vi.) Word Plugin
+vii.) Credential Management
+
+Steps:-
+1.	Open blank new project.
+2.	To use plugins go to the search and search for plugin name.
+-	Mail Plugin
+a.	Get IMAP Mail Messages activity and enter the Email and password with port as 993 and server as â€œimap.gmail.comâ€. And output as mail Messages.
+ 
+
+
+
+
+
+
+
+b. Use For each loop and loop to traverse the variable
+ 
+
+
+ 
+=> Same can be done with simple difference instead of IMAP use â€œGet Outlook Mail Messagesâ€.
+
+-	PDF Plugin
+a. The pdf plugin has 2 types to read the PDF text.
+-	Read PDF Text.
+-	Read PDF with OCR.
+
+-	Read PDF Text
+a.	Use Read PDF Text activity and use a Test PDF and output it in a variable.
+ 
+
+
+
+b.	Display it in the message box.
+c.	Save the data in a text file.
+ 
+
+Output:-
+
+ 
+-	Read PDF with OCR
+a.	Get Read PDF with OCR.
+b.	Get output variable and OCR, Tesseract OCR
+
+ 
+c.	Message box the variable and Save in text file.
+Output:
+ 
